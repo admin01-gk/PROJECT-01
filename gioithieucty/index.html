@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Landing Page Giới Thiệu Website </title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./bt4.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+
+    <link rel="stylesheet" href="./respoinsive.css">
+
+    <script src="./jquery-3.3.1.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-light fixed-top ">
+        <a class="navbar-brand " href="#" style="color: white"><b>LOGO</b></a>
+        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon "></span>
+            </button>
+        <div class="collapse navbar-collapse justify-content-end mx-5" id="collapsibleNavbar">
+            <ul class="navbar-nav mx-3">
+                <li class="nav-item ">
+                    <a class="nav-link " href="#about"><b>GIỚI THIỆU</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#dichVu"><b>DỊCH VỤ</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#duAn"><b>DỰ ÁN</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#card-pri"><b>BÁO GIÁ</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact"><b>LIÊN HỆ</b></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+    <!-- jumbotron -->
+    <div class="jumbotron text-center mt-5" style="background-color:red;">
+        <h1>MYCLASS.VN</h1>
+        <p><b>Đội ngũ trẻ - Giàu Tâm Huyết</b></p>
+        <form class="form-inline d-flex justify-content-center align-content-center">
+            <input class="form-control" type="email" size="50" placeholder="Nhập địa chỉ email " required>
+            <button id="dangKy" type="button" class="btn btn-outline-light mx-2"><b>Đăng Ký Theo Dõi</b></button>
+        </form>
+    </div>
+
+
+    <!-- Container About Section -->
+    <div id="about" class="container-fluid">
+        <div class="row">
+            <div class="col-sm-8">
+                <h2><b>Giới thiệu Myclass.vn</b></h2> <br>
+                <h4>Myclass.vn - Bên Cạnh sản phẩm tâm huyết - Hệ thống dạy lập trình trực tuyến </h4>
+                <p>Chúng tôi cam kết mang đến những chất lượng tốt nhất, hiện đại nhất, thân thuộc nhất</p> <br>
+                <button id="lienHechungToi" class="btn btn-outline-light  "><b>Liên Hệ Chúng Tôi</b></button>
+            </div>
+            <div class="col-sm-4 text-center">
+                <i class="fas fa-cat logo"></i>
+            </div>
+        </div>
+    </div>
+    <hr style="border: 1px solid rgb(235, 127, 127)">
+
+
+    <div class="container-fluid bg-light ">
+        <div class="row">
+            <div class="col-sm-4 text-center">
+                <i class="fab fa-apple-pay logo slideanim "></i>
+            </div>
+            <div class="col-sm-8">
+                <h2><b>Giá trị của Myclass.vn mang lại</b></h2> <br>
+                <h4><strong>Sứ Mệnh : </strong>Đơn vị tiên phong tại Việt Nam về hệ thống, lĩnh vực đào tạo</h4>
+                <p><strong>Tầm Nhìn : </strong>Bên cạnh các hệ thống E-learning cho lập trình...</p>
+
+            </div>
+        </div>
+
+    </div>
+    <hr style="border: 1px solid rgb(235, 127, 127)">
+    <!-- End Container About Section -->
+    <!-- Container Dich Vu -->
+    <div id="dichVu" class=" container-fluid text-center">
+        <h2><b>DỊCH VỤ</b></h2>
+        <br> <br>
+        <h4>Các dịch vụ của chúng tôi bao gồm</h4>
+        <br> <br>
+        <div class="row slideanim">
+            <div class="col-sm-4">
+                <i class="fas fa-award logo-sm"></i>
+                <h4>Elearning Framewwork</h4>
+                <p>Phần mềm chạy trực tuyến</p>
+            </div>
+            <div class="col-sm-4">
+                <i class="fab fa-edge logo-sm"></i>
+                <h4>Phát triển website</h4>
+                <p>Chúng tôi phát triển website theo các đơn đặt hàng</p>
+            </div>
+            <div class="col-sm-4">
+                <i class="fas fa-file-archive logo-sm"></i>
+                <h4>Hệ thống CRM</h4>
+                <p>Hệ thống quản trị khách hàng CRM</p>
+            </div>
+        </div>
+        <div class="row slideanim">
+            <div class="col-sm-4">
+                <i class="far fa-hospital logo-sm"></i>
+                <h4>Hệ thống phòng khám điện tử</h4>
+                <p>Xây dựng hệ thống phòng khám điện tử</p>
+            </div>
+            <div class="col-sm-4">
+                <i class="fas fa-plus-square logo-sm"></i>
+                <h4>Hệ thống quản lý nha khoa</h4>
+                <p>Hệ thống quản lý nha khoa</p>
+            </div>
+            <div class="col-sm-4">
+                <i class="fas fa-warehouse logo-sm"></i>
+                <h4>Quản lý kho bãi </h4>
+                <p>Hệ thống quản lý kho bãi</p>
+            </div>
+        </div>
+
+
+    </div>
+    <hr style="border: 1px solid rgb(235, 127, 127)">
+    <!-- End Container Dịch Vụ -->
+    <!-- Container Dự Án Tiêu Biểu -->
+    <div id="duAn" class=" container-fluid text-center bg-light">
+        <h2><b>DỰ ÁN TIÊU BIỂU</b></h2>
+        <br>
+        <h4>Những dự án tiêu biểu đã làm</h4>
+        <br>
+        <div class="row text-center slideanim">
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="./img/bh1.png" alt="h1" width="400" height="300">
+                    <br>
+                    <p style="color: red"><strong>DỰ ÁN 01</strong></p>
+                    <p><b>Dự án website 01</b></p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="./img/yt1.jpg" alt="h1" width="400" height="300">
+                    <br>
+                    <p style="color: red"><strong>DỰ ÁN 02</strong></p>
+                    <p><b>Dự án website 02</b></p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="./img/kb1.jpg" alt="h1" width="400" height="300">
+                    <br>
+                    <p style="color: red"><strong>DỰ ÁN 03</strong></p>
+                    <p><b>Dự án website 03</b></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <hr style="border: 1px solid rgb(235, 127, 127)">
+    <!-- End Dự Án tieeu Biểu -->
+    <!-- Carousel -->
+
+    <!-- End Carousel -->
+    <!-- Card -->
+    <div id="card-pri" class="container-fluid">
+        <div class="text-center">
+            <h2 style="color: red"><b>BẢNG GIÁ</b></h2> <br>
+            <h4>Chọn giá bạn muốn xây dựng website</h4><br>
+        </div>
+        <div class="row slideanim ">
+            <div class="col-sm-4 col-sx-12 ">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading ">
+                        <h1>Cơ Bản</h1>
+                    </div>
+                    <div class="panel-body">
+                        <p><strong>20</strong> abc</p>
+                        <p><strong>15</strong> ab</p>
+                        <p><strong>5</strong></p>
+                        <p><strong>2</strong> sit</p>
+                        <p><strong>Endless</strong> Amet</p>
+                    </div>
+                    <div class="panel-footer">
+                        <h3>$150</h3>
+                        <h4>Một Tháng</h4>
+                        <button class="btn btn-lg btn-outline-light">Đăng Ký</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-sx-12">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading ">
+                        <h1>Nâng Cao</h1>
+                    </div>
+                    <div class="panel-body">
+                        <p><strong>20</strong> abc
+                        </p>
+                        <p><strong>15</strong> ab
+                        </p>
+                        <p><strong>5</strong></p>
+                        <p><strong>2</strong> sit
+                        </p>
+                        <p><strong>Endless</strong> Amet</p>
+                    </div>
+                    <div class="panel-footer">
+                        <h3>$200</h3>
+                        <h4>Một Tháng</h4>
+                        <button class="btn btn-lg btn-outline-light ">Đăng Ký</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-sx-12">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading">
+                        <h1>Cao Cấp</h1>
+                    </div>
+                    <div class="panel-body">
+                        <p><strong>20</strong> abc</p>
+                        <p><strong>15</strong> ab</p>
+                        <p><strong>5</strong></p>
+                        <p><strong>2</strong> sit</p>
+                        <p><strong>Endless</strong> Amet</p>
+                    </div>
+                    <div class="panel-footer">
+                        <h3>$250</h3>
+                        <h4>Một Tháng</h4>
+                        <button class="btn btn-lg btn-outline-light ">Đăng Ký</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr style="border: 1px solid rgb(235, 127, 127)">
+    <!-- End Card -->
+    <!-- Contact -->
+    <h2 class="text-center"><b>LIÊN HỆ</b></h2>
+    <div id="contact" class="container-fluid bg-grey ">
+
+        <div class="row d-flex ml-auto ">
+            <div class="col-sm-5 ">
+                <p><b>Hãy liên hệ với chúng tôi, chúng tôi sẽ trả lời trong vòng 8 giờ</b></p>
+                <p><i class="fas fa-map-marked-alt"></i> Đà Nẵng, Việt Nam</p>
+                <p><i class="fas fa-phone-square-alt"></i> 0867 007 444 - 0905 82 1258</p>
+                <p><i class="fas fa-envelope"></i> truongsadng.nishu@gmail.com</p>
+            </div>
+            <div class="col-sm-7 slideanim">
+                <div class="row">
+                    <div class="col-sm-6 form-group">
+                        <input style="width: 80%;" class="form-control h-80" type="text" id="name" name="name" placeholder="Tên" required>
+                    </div>
+                    <div class="col-sm-6 form-group">
+                        <input style="width:80%" class="form-control " type="text" id="name" name="name" placeholder="Email" required>
+                    </div>
+                    <div class="col-sm-12 form-group">
+                        <textarea style="width:90.5%" class="from-control " name="comments" id="comments" cols="30" rows="10" placeholder="Nhập"></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row text-right mr-5">
+            <div class="col-sm-12 form-group">
+                <button class=" btn btn-đefault btn-light " type="submit">Gửi Yêu Cầu</button>
+            </div>
+        </div>
+        <div id="googleMap" style="height: 400px; widows: 100%;">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3833.8932083472637!2d108.16267661430678!3d16.071030543659763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314218df97586ffd%3A0xa1286cc9f7567b2!2zQuG7h25oIHZp4buHbiBVbmcgYsaw4bubdSDEkMOgIE7hurVuZw!5e0!3m2!1svi!2s!4v1565981848809!5m2!1svi!2s"
+                width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+    </div>
+    <hr style="border: 1px solid rgb(235, 127, 127)">
+    <!-- End Contact -->
+    <!-- Footer -->
+    <footer class="footer text-center " style="background-color: red;color:white;padding: 20px;"><b>Copyright <i class="far fa-copyright"></i> Koala Team</b></footer>
+    <!-- end Footer -->
+    <!-- scritp -->
+    <script src="./query.js"></script>
+</body>
+
+</html>
